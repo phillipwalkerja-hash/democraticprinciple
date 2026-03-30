@@ -341,26 +341,26 @@ nav ul.active {
   text-align: justify;       /* Makes the text flow nicely */
 }
 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 1.8;          /* slightly tighter, easier to scan */
   text-align: center;        /* center feels more casual and welcoming */
-  padding: 0 2rem;           /* less padding, keeps it balanced */
+  padding: 0 1rem;           /* less padding, keeps it balanced */
   font-family: "Trebuchet MS", "Segoe UI", sans-serif;
   color: #444;               /* softer than pure black */
   letter-spacing: 0.5px;     /* adds breathing room */
   background: #f9f9f9;       /* subtle background highlight */
-  border-radius: 8px;
+  border-radius: 4px;
   display: inline-block;
   margin-top: 1rem;
 }
 ///////////////////YOUTUBE
 .video-link {
-      text-align: center;
+      text-align: right;
       margin-top: 40px;
       font-family: Arial, sans-serif;
     }
     .video-link img {
-      width: 640px;   /* size it up */
+      width: 40%;   /* size it up */
       height: auto;
       cursor: pointer;
       border: 4px solid #333;
